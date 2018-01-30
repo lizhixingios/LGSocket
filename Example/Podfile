@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LGSocket_Example' do
+  pod 'LGSocket', :path => '../'
+
+  target 'LGSocket_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase' , '~> 2.1.4'
+  end
+end
