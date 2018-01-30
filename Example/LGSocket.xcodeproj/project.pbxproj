@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0511EDA1D9C9319489245218 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		0511EDA1D9C9319489245218 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		15B8B964EB3407892A2336A2 /* Pods_LGSocket_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LGSocket_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		401A473193DC201120A4122E /* Pods-LGSocket_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LGSocket_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LGSocket_Example/Pods-LGSocket_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* LGSocket_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LGSocket_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -42,8 +42,8 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		8D98A6521E2B047E1947F7F1 /* Pods_LGSocket_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LGSocket_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AC0FE80CA664F7826B3B5FFC /* LGSocket.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LGSocket.podspec; path = ../LGSocket.podspec; sourceTree = "<group>"; };
-		B4AF5495F8F34101699A427A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		AC0FE80CA664F7826B3B5FFC /* LGSocket.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LGSocket.podspec; path = ../LGSocket.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B4AF5495F8F34101699A427A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		B7A929F627ADDCA892510754 /* Pods-LGSocket_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LGSocket_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-LGSocket_Example/Pods-LGSocket_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C1677EE484ECE6D6A378A95F /* Pods-LGSocket_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LGSocket_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LGSocket_Tests/Pods-LGSocket_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		CD0D3767F7069A9B292F0E59 /* Pods-LGSocket_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LGSocket_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LGSocket_Tests/Pods-LGSocket_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -308,10 +308,12 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-LGSocket_Example/Pods-LGSocket_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/LGSocket/LGSocket.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftProtobuf/SwiftProtobuf.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LGSocket.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftProtobuf.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

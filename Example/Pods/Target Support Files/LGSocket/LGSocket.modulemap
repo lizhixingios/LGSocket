@@ -1,0 +1,6 @@
+framework module LGSocket {
+  umbrella header "LGSocket-umbrella.h"
+
+  export *
+  module * { export * }
+}

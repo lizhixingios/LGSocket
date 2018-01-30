@@ -1,0 +1,52 @@
+
+# 定义很多个航道
+# 一个航道: 快速的升级维护pod私有库
+
+# 描述航道是做什么用的
+desc "快速的升级维护pod私有库"
+lane :push do |options|
+
+targetName = options[:targetName]
+tagName = options[:tagName]
+
+
+# 这里面, 只能写已有action
+
+# 1. pod install
+# 这里的路径, 统统是相对于根路径
+cocoapods(
+clean: true,
+podfile: "./Example/Podfile"
+)
+
+# 2. podspec升级版本号
+version_bump_podspec(path: "#{targetName}.podspec", version_number: tagName)
+
+
+# 3. 提交代码到远程代码仓库
+#   1. git add .
+git_add(path: ".")
+#   2. git commit -m "xx"
+git_commit(path: ".", message: "升级版本")
+#   3. git push origin master
+push_to_git_remote
+
+# 判断标签是否已经存在
+if git_tag_exists(tag: tagName)
+# 如果存在, 删除(本地&远程)    (自定义)
+remove_tag(tagName: tagName)
+
+end
+
+
+# 4. 打标签提交
+#   1. git tag 0.2.0
+add_git_tag(
+tag: tagName
+)
+#   2. git push —tags
+push_git_tags
+
+# 5. 提交podspecs
+pod_push(allow_warnings:true)
+end

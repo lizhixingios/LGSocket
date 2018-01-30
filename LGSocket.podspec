@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'LGSocket'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of LGSocket.'
+  s.summary          = '兴哥的Socket.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+"基于ysocket、SwiftProtobuf的封装，实现的即时通讯工具类。"
                        DESC
 
   s.homepage         = 'https://github.com/lizhixingios/LGSocket'
@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'LGSocket/Classes/**/*'
+  s.source_files = 'LGSocket/**/*'
   
   # s.resource_bundles = {
   #   'LGSocket' => ['LGSocket/Assets/*.png']
@@ -38,5 +38,5 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'SwiftProtobuf', '~> 1.0.2'
 end
