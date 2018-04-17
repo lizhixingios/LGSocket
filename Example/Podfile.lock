@@ -12,9 +12,14 @@ DEPENDENCIES:
   - FBSnapshotTestCase (~> 2.1.4)
   - LGSocket (from `../`)
 
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - FBSnapshotTestCase
+    - SwiftProtobuf
+
 EXTERNAL SOURCES:
   LGSocket:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
@@ -23,4 +28,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: 7b71902ff6b0abac870564e7d2da903722ebddca
 
-COCOAPODS: 1.4.0
+COCOAPODS: 1.5.0

@@ -15,15 +15,17 @@
 		0BFE6E6E89DBACA37ABBE93428A61BC4 /* ExtensionMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61D55B1CC90455D9A1C670F58452AC5 /* ExtensionMap.swift */; };
 		10A750026C71F22C035589C6FF2B0CDB /* BinaryDecodingOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE26203BA57BE40FF5C1DEC716627870 /* BinaryDecodingOptions.swift */; };
 		1460A0FD5049A6A50FC6892524070A9D /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C31D832485CB06771BCB4B93A2B2802 /* Message.swift */; };
+		16FE0F04F53B33A741BA7CCEA6CE6D84 /* Pods-LGSocket_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 08CF7F35594CE939D7BE73F02E1B3F79 /* Pods-LGSocket_Tests-dummy.m */; };
 		174A697AD9F451DC92458E3807F15A43 /* Visitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA506909F4188FD941FC8ED18F5DFA1 /* Visitor.swift */; };
-		17E17324FA9372A52A6FC657E34AC7E0 /* LGSocket-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FF16F1760926689F999CC1E571A5278E /* LGSocket-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		17E17324FA9372A52A6FC657E34AC7E0 /* LGSocket-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 62AE21692530B30F4F585E3EF142612A /* LGSocket-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1929DBBAC1D61E75B29E6F09D9F638CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BC6EA37B639DF2BFD815007861B7F70 /* Foundation.framework */; };
 		1A70E40E759F87D5A54849CEEEC57456 /* LGClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246148D0A788306FD02940D99499AB94 /* LGClient.swift */; };
 		1AB7934C16CE49DE196FFC7BE7278287 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33F8EEAAD0C4E40F7472D29432E1933 /* SwiftSupport.swift */; };
 		1F75997EAA8ABE69F738C3E5C02D9073 /* LGSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6D1CD1CBC0FE2002BBEE7095CB8885 /* LGSocket.swift */; };
 		2303EAB6D6A849805AFA0DDE10D7B23C /* AnyMessageStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DD00907572D26B153FB63F96DF533A /* AnyMessageStorage.swift */; };
 		26E4AA3399A6A10C804B3A28A78F8E82 /* any.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF40CE714221239E4FBCB55A820FFDCC /* any.pb.swift */; };
 		29DE862CD82626C6C0BD092A5E8F06D1 /* ProtoNameProviding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A67A9D5A62A7D78BF3A4E74C592F94C /* ProtoNameProviding.swift */; };
-		2A020078F37E75D0C7B12697BD630336 /* Pods-LGSocket_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B7950E2700802F972AA4925931FFFD3 /* Pods-LGSocket_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A020078F37E75D0C7B12697BD630336 /* Pods-LGSocket_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C1B7728C27A339FBD75C5484B088A88 /* Pods-LGSocket_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2A18F0FD70001E2E6CFBF15E1E565CA2 /* Decoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FDB590419E440AD472C183FACCD82B /* Decoder.swift */; };
 		2B082FE1AB5E318EDEF1FA835F2FDAAC /* ExtensionFieldValueSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09CE997C4FD73938285EFE034C5BF27 /* ExtensionFieldValueSet.swift */; };
 		2F485B69F51E4F723A38410F31F08550 /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F4D29863C00342EEB77F26B5C8C9C31 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -37,21 +39,21 @@
 		421CDD701AEE0F2458A84200366CDD0F /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 03A3256824D44D4DB918C9E20ACB2369 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		4AAD318FC9CC01629C2EBF7D396B7777 /* struct.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3EDC393490E59F732287F637AC0CBA /* struct.pb.swift */; };
 		4DDCFB479F02A293041E5538DB54938A /* duration.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C930BAED5C2334D01AE4A9830D17E6 /* duration.pb.swift */; };
-		506D761F91EC3583789A837C559972FE /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A7D95B37D2BBD270A71BC8E0291D9942 /* FBSnapshotTestCase-dummy.m */; };
+		506D761F91EC3583789A837C559972FE /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C75D53CA62209D9A6302BA2BF58C835 /* FBSnapshotTestCase-dummy.m */; };
 		511EC05657D5986F6A95CC70EBD745C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BC6EA37B639DF2BFD815007861B7F70 /* Foundation.framework */; };
 		512F567EE2990F7C56ADA55A021631C9 /* BinaryDelimited.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AA2D26A4C67FC4A846A9A2D08F93ED /* BinaryDelimited.swift */; };
 		5452460D6883BF0EF34561C7728BDCBB /* Google_Protobuf_Wrappers+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F49B696B81777C8E1D5FD1DF6292894 /* Google_Protobuf_Wrappers+Extensions.swift */; };
 		559527A08F88550F4142B4BD24BFDB48 /* SwiftProtobuf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC6FFEF8E87D7453816157132AF25017 /* SwiftProtobuf.framework */; };
-		5D5724E2DED249DD27B189C7C66C28D7 /* SwiftProtobuf-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D76B1F0562CA645DF9DE2AD1C6BE7DFD /* SwiftProtobuf-dummy.m */; };
+		5D5724E2DED249DD27B189C7C66C28D7 /* SwiftProtobuf-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ADB937A9985B0291390B3DA1CCE7F5B /* SwiftProtobuf-dummy.m */; };
 		5E6024D6D4DB469851626777780F39F7 /* Google_Protobuf_Any+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89AEB11EB197AD52B9210D2B1E9BD60 /* Google_Protobuf_Any+Extensions.swift */; };
 		664D278CA4B256C759020D8B13289731 /* ProtobufAPIVersionCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2DD5627D334BD90316803D9334D6F5 /* ProtobufAPIVersionCheck.swift */; };
 		677BCD458C03252D1816D25C614F20F0 /* field_mask.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4D99DC4914B6C05B7EB09CA53D3EAB /* field_mask.pb.swift */; };
 		67A15F9189BA392548155EB405C40882 /* ZigZag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE936AA64837BD7429BA3EFA73D95F8 /* ZigZag.swift */; };
+		67ABAB4BF3AA497A82CA265899FAD2D4 /* Pods-LGSocket_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B50D1F7F76BEBEA69BBEF97C1DEA40E5 /* Pods-LGSocket_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		69DA8B003216466C60F029CBD79897F1 /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 6498B8346B3706DD3E8885EB79560F3D /* UIImage+Compare.m */; };
 		6C1DC4DE31EF0CC24CDAC0700A656B21 /* JSONMapEncodingVisitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8867B4DD6BE3D9B78E1E64A2EEE96595 /* JSONMapEncodingVisitor.swift */; };
 		6EFB2F6D9A6D6E185E1E4EDCBE56775E /* Google_Protobuf_Any+Registry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380E17A2E4A5DD04F33EC4B001B8FED9 /* Google_Protobuf_Any+Registry.swift */; };
 		703C1CD955C50706683255C79CEB12B7 /* ytcpsocket.c in Sources */ = {isa = PBXBuildFile; fileRef = 8752E3B8F210D6A9D28F952109DD97EF /* ytcpsocket.c */; };
-		7263C6C7AB2EED9E795F4ADFFCB9148C /* Pods-LGSocket_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EB2F311E7A920E9201D1826FD1D5CBF /* Pods-LGSocket_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7468903B78A646AC97408E0AC7539CDA /* Internal.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E27BD7DAB5AA97BA0504FB2EDBB90B /* Internal.swift */; };
 		756564ABAF2892FE7140C92A1CDDCF65 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCC09348ABB703B0B410492BC765566 /* UIImage+Snapshot.m */; };
 		75BDBAF7FAB4C1137A3C8523014FD761 /* StringUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FBE3E3317748649DBDEDD123082561F /* StringUtils.swift */; };
@@ -82,18 +84,16 @@
 		AA4A8CB05BEDA247D33E63535509018C /* LGMessage.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D47579309E97ADF23F0D88EA6CDA48 /* LGMessage.pb.swift */; };
 		AC384D0339B14B7FC07C8DA0F6E95C7D /* NameMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC3B6027B6F15C0BE943C358BD43F29 /* NameMap.swift */; };
 		ADD37E42C7703E9B65DC679DCFBD06D7 /* TextFormatDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D682D84ECAFF2AFAB78FA2A6ED4CE583 /* TextFormatDecoder.swift */; };
-		AE7FDB3183577EF9D6CEE98905225D98 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BC6EA37B639DF2BFD815007861B7F70 /* Foundation.framework */; };
 		AF7135BCC416958DB4A4DEC4F82B6D4D /* Google_Protobuf_FieldMask+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69921BF302DA0F46DC6D2872B3D6E91E /* Google_Protobuf_FieldMask+Extensions.swift */; };
-		B0551F7AAADFCFB87359895F69DBFE2A /* Pods-LGSocket_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 671BBC821426D006F13AA1413BBC5C4C /* Pods-LGSocket_Example-dummy.m */; };
+		B0551F7AAADFCFB87359895F69DBFE2A /* Pods-LGSocket_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 36E9CA468D902BECC3E10594E2D1C8CD /* Pods-LGSocket_Example-dummy.m */; };
 		B243374F8FF3E505C200ADE15B4C619C /* TextFormatEncodingVisitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F623B0EAEF4215CE7E06143A365234CF /* TextFormatEncodingVisitor.swift */; };
 		B27DFD6025D94758785918F1D6F6C060 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3814233E6F4E6976BECAA7CE2FD248E7 /* QuartzCore.framework */; };
-		B2E8684B62B3B3A3C602F5B461508B37 /* Pods-LGSocket_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF7990CEC49B36E5A5360F2F6885CD0 /* Pods-LGSocket_Tests-dummy.m */; };
 		B57EB2E1CC2A670D0CFB625C66FAADB6 /* TimeUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = D195AFAF3D9ADB18A0812FE83E5C1ECE /* TimeUtils.swift */; };
 		B63BB6C84333B5E76368CFD7072C6372 /* api.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E7923E8AA75AC8987F7863B665C87B /* api.pb.swift */; };
-		B758FB09FE2C06C1B8E36A71A9D76D41 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 44C9D834EBC1C9C9AC79E3632D2AC0A8 /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B758FB09FE2C06C1B8E36A71A9D76D41 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 970632716E7226B0E33EFCFE7D7D8181 /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B772CDA8EF2E778460CDA61AEA9A494E /* BinaryEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA4511DFAB79CC92B3534D20B4F578D /* BinaryEncoder.swift */; };
-		B7B4E3558E15505A0E5C3CE7B1BC0DD9 /* LGSocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 245859CD6340CCD3ED90AAFB9D83B11B /* LGSocket-dummy.m */; };
-		B8A7022FE04A39ADB5BF83E3296DF383 /* SwiftProtobuf-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 23146A0611C6BEEBA9FF2DDA2E24E26A /* SwiftProtobuf-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7B4E3558E15505A0E5C3CE7B1BC0DD9 /* LGSocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B327D18B2EA1260485C8A874A4795B46 /* LGSocket-dummy.m */; };
+		B8A7022FE04A39ADB5BF83E3296DF383 /* SwiftProtobuf-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 309C5146EBD9790B3E71843FFA7EF039 /* SwiftProtobuf-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BA2DB10EF2E5DE6EF9AF8852EEDB4243 /* ytcpsocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3723D3F2D817136549110C59AB4890 /* ytcpsocket.swift */; };
 		BA582EC69E91604F81B541FB4E327D8B /* MessageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F6091EB312648F1A5CA906456F0B2A /* MessageExtension.swift */; };
 		BC952FC04FC963C1294DCD619C9B6B3B /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = C439D011B139717C6A5935B0B445E347 /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -137,6 +137,13 @@
 			remoteGlobalIDString = 5C57943F2D01ABA270045CEEEC55D2AC;
 			remoteInfo = SwiftProtobuf;
 		};
+		7DA97C64D9CBCD8DF2F74DA53B090718 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4703BB33E71EA366AA765D2E6519ABDF;
+			remoteInfo = "Pods-LGSocket_Example";
+		};
 		93A29F65026B5C9495732A1D628A8F64 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
@@ -144,7 +151,7 @@
 			remoteGlobalIDString = 5C57943F2D01ABA270045CEEEC55D2AC;
 			remoteInfo = SwiftProtobuf;
 		};
-		A30C20FBB7C726D14FC28D6023C2EF5E /* PBXContainerItemProxy */ = {
+		D423572E722733A94076D6AA1EDF954A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
@@ -161,16 +168,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		000F90851B5EEDC6F88CF7E0720B4F0F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0187E05990D7C68388F1EAF1BE1F2A1B /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
 		030FA545042122347E459233D1DFAB45 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
 		03A3256824D44D4DB918C9E20ACB2369 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
-		0A6AC34AD4D2080CE7140CD29ABCAEDF /* LGSocket.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LGSocket.xcconfig; sourceTree = "<group>"; };
+		08CF7F35594CE939D7BE73F02E1B3F79 /* Pods-LGSocket_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LGSocket_Tests-dummy.m"; sourceTree = "<group>"; };
+		08D2A40D165FC3D8BAE2DC1D72D35EEB /* Pods-LGSocket_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LGSocket_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		0C71C81951E5B0F5A3CACF13FF9E21C9 /* SelectiveVisitor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SelectiveVisitor.swift; path = Sources/SwiftProtobuf/SelectiveVisitor.swift; sourceTree = "<group>"; };
 		0CAD38EC5952864C60FAEAC250D78749 /* Google_Protobuf_Duration+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Google_Protobuf_Duration+Extensions.swift"; path = "Sources/SwiftProtobuf/Google_Protobuf_Duration+Extensions.swift"; sourceTree = "<group>"; };
-		0EB2F311E7A920E9201D1826FD1D5CBF /* Pods-LGSocket_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LGSocket_Tests-umbrella.h"; sourceTree = "<group>"; };
 		0F04D58FA5B729F33657E87AD562FD4B /* Google_Protobuf_Timestamp+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Google_Protobuf_Timestamp+Extensions.swift"; path = "Sources/SwiftProtobuf/Google_Protobuf_Timestamp+Extensions.swift"; sourceTree = "<group>"; };
+		0F4F60D68A630B3AB6C30B6FFDC2D213 /* Pods-LGSocket_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LGSocket_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		10404DA4BCB7298B9362147E8BC2DCD3 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
+		10D4398190F104C6D9993C71A859DE0D /* LGSocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LGSocket-prefix.pch"; sourceTree = "<group>"; };
 		12175F96086C5BF55D2E72FED0C25CE7 /* ExtensionFields.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExtensionFields.swift; path = Sources/SwiftProtobuf/ExtensionFields.swift; sourceTree = "<group>"; };
 		1303A4E0F9BB4463EEA984FD1EDFC76F /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
 		1453B9DBCA4392DE558007E01E126DD6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -178,20 +186,28 @@
 		18A3656E50915D79B2F96E4D7DBB3D31 /* Message+JSONArrayAdditions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Message+JSONArrayAdditions.swift"; path = "Sources/SwiftProtobuf/Message+JSONArrayAdditions.swift"; sourceTree = "<group>"; };
 		19ADD50BC08DCCFCEDE7D6006AE1872E /* CustomJSONCodable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomJSONCodable.swift; path = Sources/SwiftProtobuf/CustomJSONCodable.swift; sourceTree = "<group>"; };
 		19F6091EB312648F1A5CA906456F0B2A /* MessageExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MessageExtension.swift; path = Sources/SwiftProtobuf/MessageExtension.swift; sourceTree = "<group>"; };
-		23146A0611C6BEEBA9FF2DDA2E24E26A /* SwiftProtobuf-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftProtobuf-umbrella.h"; sourceTree = "<group>"; };
-		245859CD6340CCD3ED90AAFB9D83B11B /* LGSocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LGSocket-dummy.m"; sourceTree = "<group>"; };
+		1C75D53CA62209D9A6302BA2BF58C835 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
+		1DC5BA3F6A1311472516637682AC4CBC /* Pods-LGSocket_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LGSocket_Example-frameworks.sh"; sourceTree = "<group>"; };
 		246148D0A788306FD02940D99499AB94 /* LGClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LGClient.swift; path = LGSocket/LGClient.swift; sourceTree = "<group>"; };
+		2480AE2E2CED774E3E3DB6D0A9F20521 /* SwiftProtobuf.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftProtobuf.xcconfig; sourceTree = "<group>"; };
 		261925D3983D3C6B1713ED73559670E6 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
 		2784B2BCBC812AD3FD7F8D8C6CFF53FE /* LGSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LGSocket.framework; path = LGSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		27E238D564304997749B63D5691B49A5 /* wrappers.pb.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = wrappers.pb.swift; path = Sources/SwiftProtobuf/wrappers.pb.swift; sourceTree = "<group>"; };
 		28AA2D26A4C67FC4A846A9A2D08F93ED /* BinaryDelimited.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BinaryDelimited.swift; path = Sources/SwiftProtobuf/BinaryDelimited.swift; sourceTree = "<group>"; };
+		299957420FD73CE0125B62B1453EEE2F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29F6002D989389F627B31BB523DAED1E /* Pods-LGSocket_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LGSocket_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		2C31D832485CB06771BCB4B93A2B2802 /* Message.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Message.swift; path = Sources/SwiftProtobuf/Message.swift; sourceTree = "<group>"; };
 		2C70ABB85E0CCCDEC3FB10439749BFB4 /* Message+BinaryAdditions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Message+BinaryAdditions.swift"; path = "Sources/SwiftProtobuf/Message+BinaryAdditions.swift"; sourceTree = "<group>"; };
 		2F3723D3F2D817136549110C59AB4890 /* ytcpsocket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ytcpsocket.swift; sourceTree = "<group>"; };
+		309C5146EBD9790B3E71843FFA7EF039 /* SwiftProtobuf-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftProtobuf-umbrella.h"; sourceTree = "<group>"; };
+		31F1961DBB9E20149017E63697BF66F9 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
+		356CC673DB3EAFD306264D840BB0F3DD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36E9CA468D902BECC3E10594E2D1C8CD /* Pods-LGSocket_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LGSocket_Example-dummy.m"; sourceTree = "<group>"; };
 		37365832EF8675DDA5760325C170FC76 /* UnknownStorage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnknownStorage.swift; path = Sources/SwiftProtobuf/UnknownStorage.swift; sourceTree = "<group>"; };
 		380E17A2E4A5DD04F33EC4B001B8FED9 /* Google_Protobuf_Any+Registry.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Google_Protobuf_Any+Registry.swift"; path = "Sources/SwiftProtobuf/Google_Protobuf_Any+Registry.swift"; sourceTree = "<group>"; };
 		3814233E6F4E6976BECAA7CE2FD248E7 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		387BF2E6A1845CEA65437B03232415C4 /* Version.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Version.swift; path = Sources/SwiftProtobuf/Version.swift; sourceTree = "<group>"; };
+		38D7F3DBD733E72FEB1AE4273CF0A542 /* Pods-LGSocket_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LGSocket_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		3994074E8177B23D3095639C94FBAC08 /* JSONScanner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONScanner.swift; path = Sources/SwiftProtobuf/JSONScanner.swift; sourceTree = "<group>"; };
 		39C6D48FBE8459C835CEBCBDE52CA3DC /* BinaryDecoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BinaryDecoder.swift; path = Sources/SwiftProtobuf/BinaryDecoder.swift; sourceTree = "<group>"; };
 		3A67A9D5A62A7D78BF3A4E74C592F94C /* ProtoNameProviding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ProtoNameProviding.swift; path = Sources/SwiftProtobuf/ProtoNameProviding.swift; sourceTree = "<group>"; };
@@ -200,44 +216,40 @@
 		3D9990BEDAF8DD1841B1D0ACF557E62E /* BinaryEncodingError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BinaryEncodingError.swift; path = Sources/SwiftProtobuf/BinaryEncodingError.swift; sourceTree = "<group>"; };
 		3E403F21FAD22A61DA48DF1169DD1838 /* BinaryEncodingVisitor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BinaryEncodingVisitor.swift; path = Sources/SwiftProtobuf/BinaryEncodingVisitor.swift; sourceTree = "<group>"; };
 		410A11076A74994325E84C38714B58EF /* TextFormatEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextFormatEncoder.swift; path = Sources/SwiftProtobuf/TextFormatEncoder.swift; sourceTree = "<group>"; };
-		4179442517C9FB39FC8541E99F33E5FA /* Pods-LGSocket_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LGSocket_Tests-resources.sh"; sourceTree = "<group>"; };
+		4117878AE4F2878A1F3F87885AA3C6B1 /* SwiftProtobuf.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftProtobuf.modulemap; sourceTree = "<group>"; };
 		42B4C1A107D52842A0DE066FFFF9C635 /* source_context.pb.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = source_context.pb.swift; path = Sources/SwiftProtobuf/source_context.pb.swift; sourceTree = "<group>"; };
 		42D3E75964781E7D6045CDEAA41F8142 /* yudpsocket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = yudpsocket.swift; sourceTree = "<group>"; };
-		44C9D834EBC1C9C9AC79E3632D2AC0A8 /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
-		4646D11126A4B822F519FA4BE940E5D2 /* Pods-LGSocket_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LGSocket_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		49223D68FBE2CBB678A4C24A126090DF /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
+		47C3FD787356E071F0E2D9CA3A4DACCD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DF2A0B39252AE21249D93DE6CC64F9A /* Pods-LGSocket_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LGSocket_Example.release.xcconfig"; sourceTree = "<group>"; };
 		4F4D29863C00342EEB77F26B5C8C9C31 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
 		55DEE134B25F6994619DD0D753C8B37A /* LGSocket.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = LGSocket.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		57446B38539DC369A0814DA8E8701E9F /* WireFormat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WireFormat.swift; path = Sources/SwiftProtobuf/WireFormat.swift; sourceTree = "<group>"; };
+		58147BB22F3418B6C50EDC66CAA41808 /* Pods-LGSocket_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LGSocket_Example-resources.sh"; sourceTree = "<group>"; };
 		59333009822B9921524214C70E174E7D /* LGServerManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LGServerManager.swift; path = LGSocket/LGServerManager.swift; sourceTree = "<group>"; };
-		5B9C54141E63E3D96A75403A0466702B /* Pods-LGSocket_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LGSocket_Example.release.xcconfig"; sourceTree = "<group>"; };
 		5BC6EA37B639DF2BFD815007861B7F70 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5C1B7728C27A339FBD75C5484B088A88 /* Pods-LGSocket_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LGSocket_Example-umbrella.h"; sourceTree = "<group>"; };
+		5C8F93741391324C2B40C1844BCFFF90 /* Pods-LGSocket_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LGSocket_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		5DA506909F4188FD941FC8ED18F5DFA1 /* Visitor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Visitor.swift; path = Sources/SwiftProtobuf/Visitor.swift; sourceTree = "<group>"; };
+		5ED0CBAB30EE1C29178BCD0B263A6674 /* Pods-LGSocket_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LGSocket_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		5FF3908012C0AC0B9C29895600BEC3B6 /* ProtobufMap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ProtobufMap.swift; path = Sources/SwiftProtobuf/ProtobufMap.swift; sourceTree = "<group>"; };
 		628AA4FAE74DD3F77391FDBA10548EBD /* ExtensibleMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExtensibleMessage.swift; path = Sources/SwiftProtobuf/ExtensibleMessage.swift; sourceTree = "<group>"; };
+		62AE21692530B30F4F585E3EF142612A /* LGSocket-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LGSocket-umbrella.h"; sourceTree = "<group>"; };
 		62D9B09762004E780D2A10AE0C496FAD /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
-		62F6E491FC4188BFBC5FE0286F0306BE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6498B8346B3706DD3E8885EB79560F3D /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
 		651872ECB7655C2F9701CF8F18B25541 /* Google_Protobuf_ListValue+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Google_Protobuf_ListValue+Extensions.swift"; path = "Sources/SwiftProtobuf/Google_Protobuf_ListValue+Extensions.swift"; sourceTree = "<group>"; };
-		65396155436DB6DB1847DDBE27A6C123 /* Pods-LGSocket_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LGSocket_Example-resources.sh"; sourceTree = "<group>"; };
-		671BBC821426D006F13AA1413BBC5C4C /* Pods-LGSocket_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LGSocket_Example-dummy.m"; sourceTree = "<group>"; };
 		69921BF302DA0F46DC6D2872B3D6E91E /* Google_Protobuf_FieldMask+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Google_Protobuf_FieldMask+Extensions.swift"; path = "Sources/SwiftProtobuf/Google_Protobuf_FieldMask+Extensions.swift"; sourceTree = "<group>"; };
-		6A79A1718F895C011BB297F14CB1292C /* Pods-LGSocket_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LGSocket_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		6ADB937A9985B0291390B3DA1CCE7F5B /* SwiftProtobuf-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftProtobuf-dummy.m"; sourceTree = "<group>"; };
 		6D2DD5627D334BD90316803D9334D6F5 /* ProtobufAPIVersionCheck.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ProtobufAPIVersionCheck.swift; path = Sources/SwiftProtobuf/ProtobufAPIVersionCheck.swift; sourceTree = "<group>"; };
 		6F36AD877FB85EACCFA384D593E241E6 /* TextFormatDecodingError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextFormatDecodingError.swift; path = Sources/SwiftProtobuf/TextFormatDecodingError.swift; sourceTree = "<group>"; };
 		6F4D99DC4914B6C05B7EB09CA53D3EAB /* field_mask.pb.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = field_mask.pb.swift; path = Sources/SwiftProtobuf/field_mask.pb.swift; sourceTree = "<group>"; };
 		6FBE3E3317748649DBDEDD123082561F /* StringUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringUtils.swift; path = Sources/SwiftProtobuf/StringUtils.swift; sourceTree = "<group>"; };
-		7100A39309819EDF7D33911832DAC3F3 /* Pods-LGSocket_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LGSocket_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		73AB1180846ACBA8F3C0CF43A8FDDD66 /* Pods-LGSocket_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LGSocket_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		74A962318BD9B9DCA75C701301C09A8C /* JSONEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONEncoder.swift; path = Sources/SwiftProtobuf/JSONEncoder.swift; sourceTree = "<group>"; };
-		776B3AF00959F20A4DE86DD0B2FA8C99 /* Pods-LGSocket_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LGSocket_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		78E7923E8AA75AC8987F7863B665C87B /* api.pb.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = api.pb.swift; path = Sources/SwiftProtobuf/api.pb.swift; sourceTree = "<group>"; };
 		7A543F683965F5AF5A379F776E55EAF7 /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
 		7BC25C22F36833E97EC26D0384D563EF /* Message+AnyAdditions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Message+AnyAdditions.swift"; path = "Sources/SwiftProtobuf/Message+AnyAdditions.swift"; sourceTree = "<group>"; };
 		7E51F242D252C4D5BD2C207C19C8AAB7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		7F0B863E276F16A18DDD9E041E2666E6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7FE936AA64837BD7429BA3EFA73D95F8 /* ZigZag.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZigZag.swift; path = Sources/SwiftProtobuf/ZigZag.swift; sourceTree = "<group>"; };
-		80BA335835FEF60093072DC7C21F83C5 /* SwiftProtobuf-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftProtobuf-prefix.pch"; sourceTree = "<group>"; };
-		82F06E70B1FA717A2103F0720DBD1466 /* Pods-LGSocket_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-LGSocket_Tests.modulemap"; sourceTree = "<group>"; };
 		83C930BAED5C2334D01AE4A9830D17E6 /* duration.pb.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = duration.pb.swift; path = Sources/SwiftProtobuf/duration.pb.swift; sourceTree = "<group>"; };
 		83D47579309E97ADF23F0D88EA6CDA48 /* LGMessage.pb.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LGMessage.pb.swift; path = LGSocket/LGMessage.pb.swift; sourceTree = "<group>"; };
 		8521145F52D9DE68F00D15CDAB8D3E80 /* BinaryEncodingSizeVisitor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BinaryEncodingSizeVisitor.swift; path = Sources/SwiftProtobuf/BinaryEncodingSizeVisitor.swift; sourceTree = "<group>"; };
@@ -245,75 +257,70 @@
 		8867B4DD6BE3D9B78E1E64A2EEE96595 /* JSONMapEncodingVisitor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONMapEncodingVisitor.swift; path = Sources/SwiftProtobuf/JSONMapEncodingVisitor.swift; sourceTree = "<group>"; };
 		88D34DC6500447F8E4E160496DE62768 /* Message+JSONAdditions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Message+JSONAdditions.swift"; path = "Sources/SwiftProtobuf/Message+JSONAdditions.swift"; sourceTree = "<group>"; };
 		88EA62DF51D2F0BB31BBCD634E52B519 /* Pods_LGSocket_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LGSocket_Tests.framework; path = "Pods-LGSocket_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		894D14C7364CFAAC506B2CA316452444 /* SwiftProtobuf.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftProtobuf.xcconfig; sourceTree = "<group>"; };
 		89C74E9935B7AFB57F6D5C3A5862C99A /* JSONEncodingError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONEncodingError.swift; path = Sources/SwiftProtobuf/JSONEncodingError.swift; sourceTree = "<group>"; };
 		8A01CC73C6F352C7D96BA7D34B09F1A7 /* MathUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MathUtils.swift; path = Sources/SwiftProtobuf/MathUtils.swift; sourceTree = "<group>"; };
 		8B099FDB7B831E870609702ADE9B01EE /* SimpleExtensionMap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SimpleExtensionMap.swift; path = Sources/SwiftProtobuf/SimpleExtensionMap.swift; sourceTree = "<group>"; };
-		8B7950E2700802F972AA4925931FFFD3 /* Pods-LGSocket_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LGSocket_Example-umbrella.h"; sourceTree = "<group>"; };
 		8E6D1CD1CBC0FE2002BBEE7095CB8885 /* LGSocket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LGSocket.swift; path = LGSocket/LGSocket.swift; sourceTree = "<group>"; };
-		8F291378244B83A693B15C3E856A0427 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8F49B696B81777C8E1D5FD1DF6292894 /* Google_Protobuf_Wrappers+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Google_Protobuf_Wrappers+Extensions.swift"; path = "Sources/SwiftProtobuf/Google_Protobuf_Wrappers+Extensions.swift"; sourceTree = "<group>"; };
 		90DD00907572D26B153FB63F96DF533A /* AnyMessageStorage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnyMessageStorage.swift; path = Sources/SwiftProtobuf/AnyMessageStorage.swift; sourceTree = "<group>"; };
+		91D170F881BA69FBCAF225BDBD843B43 /* LGSocket.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LGSocket.xcconfig; sourceTree = "<group>"; };
 		926FC88CE9DEAA210EE47E84F2B3CCF4 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93247DE09ABD899E73CCF009D628AB22 /* Pods-LGSocket_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LGSocket_Example.modulemap"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		970632716E7226B0E33EFCFE7D7D8181 /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
 		9A11E8707D516297DAE3DEBC1B89E3FE /* JSONDecodingError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONDecodingError.swift; path = Sources/SwiftProtobuf/JSONDecodingError.swift; sourceTree = "<group>"; };
 		9A85B508F84108527E333621036E4999 /* TextFormatScanner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextFormatScanner.swift; path = Sources/SwiftProtobuf/TextFormatScanner.swift; sourceTree = "<group>"; };
 		9E3EDC393490E59F732287F637AC0CBA /* struct.pb.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = struct.pb.swift; path = Sources/SwiftProtobuf/struct.pb.swift; sourceTree = "<group>"; };
 		A0A11FA6D527849C92956198018E8F5C /* JSONIntegerConverting.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONIntegerConverting.swift; path = Sources/SwiftProtobuf/JSONIntegerConverting.swift; sourceTree = "<group>"; };
 		A130D56B005AE2D949F03F18B34FDE4A /* BinaryDecodingError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BinaryDecodingError.swift; path = Sources/SwiftProtobuf/BinaryDecodingError.swift; sourceTree = "<group>"; };
 		A295BBCDEE4A36E318B1E1B8F2BC9875 /* AnyUnpackError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnyUnpackError.swift; path = Sources/SwiftProtobuf/AnyUnpackError.swift; sourceTree = "<group>"; };
-		A445315CB3D5C1D97D82BF2F23DC684C /* Pods-LGSocket_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LGSocket_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		A4A5C70F7624AAA53D5FD3CE1BCC3C92 /* HashVisitor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HashVisitor.swift; path = Sources/SwiftProtobuf/HashVisitor.swift; sourceTree = "<group>"; };
 		A790186861C15F46B475C19E03E07D89 /* timestamp.pb.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = timestamp.pb.swift; path = Sources/SwiftProtobuf/timestamp.pb.swift; sourceTree = "<group>"; };
-		A7D95B37D2BBD270A71BC8E0291D9942 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
+		A84366365A22C37DE6B5EED33081C8A4 /* Pods-LGSocket_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LGSocket_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		A981AAC77CBE88F418EB0F9D9857F058 /* Google_Protobuf_Value+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Google_Protobuf_Value+Extensions.swift"; path = "Sources/SwiftProtobuf/Google_Protobuf_Value+Extensions.swift"; sourceTree = "<group>"; };
+		AB16E24366010F0B8B22DC89BFA32191 /* SwiftProtobuf-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftProtobuf-prefix.pch"; sourceTree = "<group>"; };
 		ACCC09348ABB703B0B410492BC765566 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
+		B09B0C6A8FB7AC251F61CBAE53B7784A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B09CE997C4FD73938285EFE034C5BF27 /* ExtensionFieldValueSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExtensionFieldValueSet.swift; path = Sources/SwiftProtobuf/ExtensionFieldValueSet.swift; sourceTree = "<group>"; };
 		B238F88ABBAFDDF255823022EB48F8CB /* Pods_LGSocket_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LGSocket_Example.framework; path = "Pods-LGSocket_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B327D18B2EA1260485C8A874A4795B46 /* LGSocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LGSocket-dummy.m"; sourceTree = "<group>"; };
 		B33F8EEAAD0C4E40F7472D29432E1933 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
 		B343319DAE54B1921304E60F81AB8BEB /* FieldTypes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FieldTypes.swift; path = Sources/SwiftProtobuf/FieldTypes.swift; sourceTree = "<group>"; };
+		B39B0DF8C7EE4F7B53AFCEA54A81A95C /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
+		B50D1F7F76BEBEA69BBEF97C1DEA40E5 /* Pods-LGSocket_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LGSocket_Tests-umbrella.h"; sourceTree = "<group>"; };
 		B5977C6DDA048124F0F4857C752F9E2F /* yudpsocket.c */ = {isa = PBXFileReference; includeInIndex = 1; path = yudpsocket.c; sourceTree = "<group>"; };
-		B7530E319106F7F1FB98DFBC8DB5A2CD /* SwiftProtobuf.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SwiftProtobuf.modulemap; sourceTree = "<group>"; };
 		B8C9E2700E1C609FA45F4641EEBD8A85 /* type.pb.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = type.pb.swift; path = Sources/SwiftProtobuf/type.pb.swift; sourceTree = "<group>"; };
 		B971111E395B1AA7CC6D3FCD74EA28ED /* DoubleFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DoubleFormatter.swift; path = Sources/SwiftProtobuf/DoubleFormatter.swift; sourceTree = "<group>"; };
 		BB93E7FE389478BFEC588B2D797A4251 /* JSONEncodingVisitor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONEncodingVisitor.swift; path = Sources/SwiftProtobuf/JSONEncodingVisitor.swift; sourceTree = "<group>"; };
 		BC1C2B1B628A69A9883AB300DF1A2B64 /* FieldTag.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FieldTag.swift; path = Sources/SwiftProtobuf/FieldTag.swift; sourceTree = "<group>"; };
 		C0E27BD7DAB5AA97BA0504FB2EDBB90B /* Internal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Internal.swift; path = Sources/SwiftProtobuf/Internal.swift; sourceTree = "<group>"; };
-		C125129319ECDD2064AAD10FDA2ACA1E /* Pods-LGSocket_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LGSocket_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		C439D011B139717C6A5935B0B445E347 /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
+		C530512195AC048992DC31FF7D8BFCD4 /* Pods-LGSocket_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LGSocket_Tests-resources.sh"; sourceTree = "<group>"; };
 		C61D55B1CC90455D9A1C670F58452AC5 /* ExtensionMap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExtensionMap.swift; path = Sources/SwiftProtobuf/ExtensionMap.swift; sourceTree = "<group>"; };
-		C75BDFF900C4EB3ADF9942EC802D567F /* Pods-LGSocket_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LGSocket_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		CC6FFEF8E87D7453816157132AF25017 /* SwiftProtobuf.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftProtobuf.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDA4511DFAB79CC92B3534D20B4F578D /* BinaryEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BinaryEncoder.swift; path = Sources/SwiftProtobuf/BinaryEncoder.swift; sourceTree = "<group>"; };
+		CFBD76CF5703FCB8CDB2003B13F69C9B /* LGSocket.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LGSocket.modulemap; sourceTree = "<group>"; };
 		D195AFAF3D9ADB18A0812FE83E5C1ECE /* TimeUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TimeUtils.swift; path = Sources/SwiftProtobuf/TimeUtils.swift; sourceTree = "<group>"; };
-		D29C8692782B4EA656DE02EE4C7AD1F7 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
 		D3368206434309D12E59BE7BB7000C6D /* Message+TextFormatAdditions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Message+TextFormatAdditions.swift"; path = "Sources/SwiftProtobuf/Message+TextFormatAdditions.swift"; sourceTree = "<group>"; };
-		D34DBE3833B620EECD8AC68FE79D6164 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D55C421AB3145A6BD134F4AEC7AB5651 /* Enum.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Enum.swift; path = Sources/SwiftProtobuf/Enum.swift; sourceTree = "<group>"; };
 		D5A310897F0BB7B53BEC79AF90806C74 /* SwiftProtobuf.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftProtobuf.framework; path = SwiftProtobuf.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D64B43D0F4CD11828FF76F974C896EE0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		D682D84ECAFF2AFAB78FA2A6ED4CE583 /* TextFormatDecoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextFormatDecoder.swift; path = Sources/SwiftProtobuf/TextFormatDecoder.swift; sourceTree = "<group>"; };
 		D6D4BF5BBD6727634D906667AE35DEC9 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
-		D76B1F0562CA645DF9DE2AD1C6BE7DFD /* SwiftProtobuf-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftProtobuf-dummy.m"; sourceTree = "<group>"; };
 		DB2762A6E31E314D08437F1D377A22F4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		DBF7990CEC49B36E5A5360F2F6885CD0 /* Pods-LGSocket_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LGSocket_Tests-dummy.m"; sourceTree = "<group>"; };
 		DBF7E6C28A31FC2A969CA3F77F7093A4 /* JSONDecodingOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONDecodingOptions.swift; path = Sources/SwiftProtobuf/JSONDecodingOptions.swift; sourceTree = "<group>"; };
 		DE26203BA57BE40FF5C1DEC716627870 /* BinaryDecodingOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BinaryDecodingOptions.swift; path = Sources/SwiftProtobuf/BinaryDecodingOptions.swift; sourceTree = "<group>"; };
-		E06AAF6A94AC312DB8DB3BC70122EA97 /* LGSocket.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = LGSocket.modulemap; sourceTree = "<group>"; };
+		DF2CBA3DA5A52CF9F8961F77B1E5C081 /* Pods-LGSocket_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LGSocket_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E0B1C2BDACA6F41140AA971A8C487829 /* Google_Protobuf_Struct+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Google_Protobuf_Struct+Extensions.swift"; path = "Sources/SwiftProtobuf/Google_Protobuf_Struct+Extensions.swift"; sourceTree = "<group>"; };
+		E7869EF9C9B1B4CC76F3B7CD10C50574 /* Pods-LGSocket_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LGSocket_Tests.modulemap"; sourceTree = "<group>"; };
 		E89AEB11EB197AD52B9210D2B1E9BD60 /* Google_Protobuf_Any+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Google_Protobuf_Any+Extensions.swift"; path = "Sources/SwiftProtobuf/Google_Protobuf_Any+Extensions.swift"; sourceTree = "<group>"; };
-		EA5F7D9BF89E7A77C2371DCC53B2F759 /* LGSocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LGSocket-prefix.pch"; sourceTree = "<group>"; };
-		EEB7A29275443A2CBEBD5C5C0BC2BE45 /* Pods-LGSocket_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-LGSocket_Example.modulemap"; sourceTree = "<group>"; };
 		EF40CE714221239E4FBCB55A820FFDCC /* any.pb.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = any.pb.swift; path = Sources/SwiftProtobuf/any.pb.swift; sourceTree = "<group>"; };
 		F2FDB590419E440AD472C183FACCD82B /* Decoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Decoder.swift; path = Sources/SwiftProtobuf/Decoder.swift; sourceTree = "<group>"; };
-		F50B0CCDF61635F6B799FDAC444DBA89 /* Pods-LGSocket_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LGSocket_Example-frameworks.sh"; sourceTree = "<group>"; };
 		F623B0EAEF4215CE7E06143A365234CF /* TextFormatEncodingVisitor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextFormatEncodingVisitor.swift; path = Sources/SwiftProtobuf/TextFormatEncodingVisitor.swift; sourceTree = "<group>"; };
-		F681D32F7D8CE3139775FF72384CC782 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
-		F6B279E8B5BBEC72D5115B852784750A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F7AA85BBDDB59316F662CD5EF7A9F706 /* ysocket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ysocket.swift; sourceTree = "<group>"; };
 		F81CC9C0692F46413C83F7807A19A8F8 /* JSONDecoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONDecoder.swift; path = Sources/SwiftProtobuf/JSONDecoder.swift; sourceTree = "<group>"; };
 		F8F92813472253C7ED75214D3308EAD2 /* Varint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Varint.swift; path = Sources/SwiftProtobuf/Varint.swift; sourceTree = "<group>"; };
-		FF16F1760926689F999CC1E571A5278E /* LGSocket-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LGSocket-umbrella.h"; sourceTree = "<group>"; };
+		FDF4157CC43FC020841BCA728D117783 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -337,11 +344,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7CC39582AB28BE4EC2F7AE7A115FEB3A /* Frameworks */ = {
+		9A70B32E0A3F50EB84916A9EC83B4798 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE7FDB3183577EF9D6CEE98905225D98 /* Foundation.framework in Frameworks */,
+				1929DBBAC1D61E75B29E6F09D9F638CB /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,10 +374,28 @@
 		080C4CC8B48270827B3EC8C74A39C10A /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				A7AC90E4E4E9FB29D6BC4D58454FF8E5 /* Pods-LGSocket_Example */,
-				409BD130C3FF2FA8B6BC30FFCE33E505 /* Pods-LGSocket_Tests */,
+				0DD62F65D28A92D621076C43154DAF43 /* Pods-LGSocket_Example */,
+				461D1978F9D78EC8FDA9719A1F08A60C /* Pods-LGSocket_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		0DD62F65D28A92D621076C43154DAF43 /* Pods-LGSocket_Example */ = {
+			isa = PBXGroup;
+			children = (
+				7F0B863E276F16A18DDD9E041E2666E6 /* Info.plist */,
+				93247DE09ABD899E73CCF009D628AB22 /* Pods-LGSocket_Example.modulemap */,
+				5C8F93741391324C2B40C1844BCFFF90 /* Pods-LGSocket_Example-acknowledgements.markdown */,
+				5ED0CBAB30EE1C29178BCD0B263A6674 /* Pods-LGSocket_Example-acknowledgements.plist */,
+				36E9CA468D902BECC3E10594E2D1C8CD /* Pods-LGSocket_Example-dummy.m */,
+				1DC5BA3F6A1311472516637682AC4CBC /* Pods-LGSocket_Example-frameworks.sh */,
+				58147BB22F3418B6C50EDC66CAA41808 /* Pods-LGSocket_Example-resources.sh */,
+				5C1B7728C27A339FBD75C5484B088A88 /* Pods-LGSocket_Example-umbrella.h */,
+				DF2CBA3DA5A52CF9F8961F77B1E5C081 /* Pods-LGSocket_Example.debug.xcconfig */,
+				4DF2A0B39252AE21249D93DE6CC64F9A /* Pods-LGSocket_Example.release.xcconfig */,
+			);
+			name = "Pods-LGSocket_Example";
+			path = "Target Support Files/Pods-LGSocket_Example";
 			sourceTree = "<group>";
 		};
 		1FD5DAE0A54C644DFB59250CE6E35EF4 /* SwiftSupport */ = {
@@ -389,29 +414,57 @@
 				59333009822B9921524214C70E174E7D /* LGServerManager.swift */,
 				8E6D1CD1CBC0FE2002BBEE7095CB8885 /* LGSocket.swift */,
 				684B3EA086BF0AD2F1504C9ACC3E7697 /* Pod */,
-				8B77F0D617920242F078F0E470EFC794 /* Support Files */,
+				53BBE2E37318542FEABA6649538A15B3 /* Support Files */,
 				74BA1A3B3A6AFC31BD9F37537C5EB19D /* ysocket */,
 			);
 			name = LGSocket;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		409BD130C3FF2FA8B6BC30FFCE33E505 /* Pods-LGSocket_Tests */ = {
+		461D1978F9D78EC8FDA9719A1F08A60C /* Pods-LGSocket_Tests */ = {
 			isa = PBXGroup;
 			children = (
-				F6B279E8B5BBEC72D5115B852784750A /* Info.plist */,
-				82F06E70B1FA717A2103F0720DBD1466 /* Pods-LGSocket_Tests.modulemap */,
-				776B3AF00959F20A4DE86DD0B2FA8C99 /* Pods-LGSocket_Tests-acknowledgements.markdown */,
-				C75BDFF900C4EB3ADF9942EC802D567F /* Pods-LGSocket_Tests-acknowledgements.plist */,
-				DBF7990CEC49B36E5A5360F2F6885CD0 /* Pods-LGSocket_Tests-dummy.m */,
-				A445315CB3D5C1D97D82BF2F23DC684C /* Pods-LGSocket_Tests-frameworks.sh */,
-				4179442517C9FB39FC8541E99F33E5FA /* Pods-LGSocket_Tests-resources.sh */,
-				0EB2F311E7A920E9201D1826FD1D5CBF /* Pods-LGSocket_Tests-umbrella.h */,
-				73AB1180846ACBA8F3C0CF43A8FDDD66 /* Pods-LGSocket_Tests.debug.xcconfig */,
-				6A79A1718F895C011BB297F14CB1292C /* Pods-LGSocket_Tests.release.xcconfig */,
+				299957420FD73CE0125B62B1453EEE2F /* Info.plist */,
+				E7869EF9C9B1B4CC76F3B7CD10C50574 /* Pods-LGSocket_Tests.modulemap */,
+				0F4F60D68A630B3AB6C30B6FFDC2D213 /* Pods-LGSocket_Tests-acknowledgements.markdown */,
+				38D7F3DBD733E72FEB1AE4273CF0A542 /* Pods-LGSocket_Tests-acknowledgements.plist */,
+				08CF7F35594CE939D7BE73F02E1B3F79 /* Pods-LGSocket_Tests-dummy.m */,
+				29F6002D989389F627B31BB523DAED1E /* Pods-LGSocket_Tests-frameworks.sh */,
+				C530512195AC048992DC31FF7D8BFCD4 /* Pods-LGSocket_Tests-resources.sh */,
+				B50D1F7F76BEBEA69BBEF97C1DEA40E5 /* Pods-LGSocket_Tests-umbrella.h */,
+				08D2A40D165FC3D8BAE2DC1D72D35EEB /* Pods-LGSocket_Tests.debug.xcconfig */,
+				A84366365A22C37DE6B5EED33081C8A4 /* Pods-LGSocket_Tests.release.xcconfig */,
 			);
 			name = "Pods-LGSocket_Tests";
 			path = "Target Support Files/Pods-LGSocket_Tests";
+			sourceTree = "<group>";
+		};
+		4E93A7A2463AC9EEF7655EF096C153AF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				47C3FD787356E071F0E2D9CA3A4DACCD /* Info.plist */,
+				4117878AE4F2878A1F3F87885AA3C6B1 /* SwiftProtobuf.modulemap */,
+				2480AE2E2CED774E3E3DB6D0A9F20521 /* SwiftProtobuf.xcconfig */,
+				6ADB937A9985B0291390B3DA1CCE7F5B /* SwiftProtobuf-dummy.m */,
+				AB16E24366010F0B8B22DC89BFA32191 /* SwiftProtobuf-prefix.pch */,
+				309C5146EBD9790B3E71843FFA7EF039 /* SwiftProtobuf-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftProtobuf";
+			sourceTree = "<group>";
+		};
+		53BBE2E37318542FEABA6649538A15B3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				356CC673DB3EAFD306264D840BB0F3DD /* Info.plist */,
+				CFBD76CF5703FCB8CDB2003B13F69C9B /* LGSocket.modulemap */,
+				91D170F881BA69FBCAF225BDBD843B43 /* LGSocket.xcconfig */,
+				B327D18B2EA1260485C8A874A4795B46 /* LGSocket-dummy.m */,
+				10D4398190F104C6D9993C71A859DE0D /* LGSocket-prefix.pch */,
+				62AE21692530B30F4F585E3EF142612A /* LGSocket-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LGSocket";
 			sourceTree = "<group>";
 		};
 		551E4E594B1B46B9B1C197CF80800BC5 /* Frameworks */ = {
@@ -488,20 +541,6 @@
 			name = Core;
 			sourceTree = "<group>";
 		};
-		8B77F0D617920242F078F0E470EFC794 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				D34DBE3833B620EECD8AC68FE79D6164 /* Info.plist */,
-				E06AAF6A94AC312DB8DB3BC70122EA97 /* LGSocket.modulemap */,
-				0A6AC34AD4D2080CE7140CD29ABCAEDF /* LGSocket.xcconfig */,
-				245859CD6340CCD3ED90AAFB9D83B11B /* LGSocket-dummy.m */,
-				EA5F7D9BF89E7A77C2371DCC53B2F759 /* LGSocket-prefix.pch */,
-				FF16F1760926689F999CC1E571A5278E /* LGSocket-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/LGSocket";
-			sourceTree = "<group>";
-		};
 		8D00CEE81E7B040605935943D8D10039 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -510,61 +549,29 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		A7AC90E4E4E9FB29D6BC4D58454FF8E5 /* Pods-LGSocket_Example */ = {
-			isa = PBXGroup;
-			children = (
-				62F6E491FC4188BFBC5FE0286F0306BE /* Info.plist */,
-				EEB7A29275443A2CBEBD5C5C0BC2BE45 /* Pods-LGSocket_Example.modulemap */,
-				7100A39309819EDF7D33911832DAC3F3 /* Pods-LGSocket_Example-acknowledgements.markdown */,
-				C125129319ECDD2064AAD10FDA2ACA1E /* Pods-LGSocket_Example-acknowledgements.plist */,
-				671BBC821426D006F13AA1413BBC5C4C /* Pods-LGSocket_Example-dummy.m */,
-				F50B0CCDF61635F6B799FDAC444DBA89 /* Pods-LGSocket_Example-frameworks.sh */,
-				65396155436DB6DB1847DDBE27A6C123 /* Pods-LGSocket_Example-resources.sh */,
-				8B7950E2700802F972AA4925931FFFD3 /* Pods-LGSocket_Example-umbrella.h */,
-				4646D11126A4B822F519FA4BE940E5D2 /* Pods-LGSocket_Example.debug.xcconfig */,
-				5B9C54141E63E3D96A75403A0466702B /* Pods-LGSocket_Example.release.xcconfig */,
-			);
-			name = "Pods-LGSocket_Example";
-			path = "Target Support Files/Pods-LGSocket_Example";
-			sourceTree = "<group>";
-		};
-		AD9E399A48F2A919DBE366CF627D6F7C /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				D29C8692782B4EA656DE02EE4C7AD1F7 /* FBSnapshotTestCase.modulemap */,
-				49223D68FBE2CBB678A4C24A126090DF /* FBSnapshotTestCase.xcconfig */,
-				A7D95B37D2BBD270A71BC8E0291D9942 /* FBSnapshotTestCase-dummy.m */,
-				F681D32F7D8CE3139775FF72384CC782 /* FBSnapshotTestCase-prefix.pch */,
-				44C9D834EBC1C9C9AC79E3632D2AC0A8 /* FBSnapshotTestCase-umbrella.h */,
-				000F90851B5EEDC6F88CF7E0720B4F0F /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/FBSnapshotTestCase";
-			sourceTree = "<group>";
-		};
 		B8D9A0779000BF736ABC8823CE7F81B7 /* FBSnapshotTestCase */ = {
 			isa = PBXGroup;
 			children = (
 				892F446094EF8B84ED7A3EBFDAAA3E62 /* Core */,
-				AD9E399A48F2A919DBE366CF627D6F7C /* Support Files */,
+				BBC3FDE526C53A39D06A5F1B17D8D34E /* Support Files */,
 				1FD5DAE0A54C644DFB59250CE6E35EF4 /* SwiftSupport */,
 			);
 			name = FBSnapshotTestCase;
 			path = FBSnapshotTestCase;
 			sourceTree = "<group>";
 		};
-		B98B1AB3C2C7F129B4503F5068BBC458 /* Support Files */ = {
+		BBC3FDE526C53A39D06A5F1B17D8D34E /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				8F291378244B83A693B15C3E856A0427 /* Info.plist */,
-				B7530E319106F7F1FB98DFBC8DB5A2CD /* SwiftProtobuf.modulemap */,
-				894D14C7364CFAAC506B2CA316452444 /* SwiftProtobuf.xcconfig */,
-				D76B1F0562CA645DF9DE2AD1C6BE7DFD /* SwiftProtobuf-dummy.m */,
-				80BA335835FEF60093072DC7C21F83C5 /* SwiftProtobuf-prefix.pch */,
-				23146A0611C6BEEBA9FF2DDA2E24E26A /* SwiftProtobuf-umbrella.h */,
+				FDF4157CC43FC020841BCA728D117783 /* FBSnapshotTestCase.modulemap */,
+				B39B0DF8C7EE4F7B53AFCEA54A81A95C /* FBSnapshotTestCase.xcconfig */,
+				1C75D53CA62209D9A6302BA2BF58C835 /* FBSnapshotTestCase-dummy.m */,
+				31F1961DBB9E20149017E63697BF66F9 /* FBSnapshotTestCase-prefix.pch */,
+				970632716E7226B0E33EFCFE7D7D8181 /* FBSnapshotTestCase-umbrella.h */,
+				B09B0C6A8FB7AC251F61CBAE53B7784A /* Info.plist */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/SwiftProtobuf";
+			path = "../Target Support Files/FBSnapshotTestCase";
 			sourceTree = "<group>";
 		};
 		C55F61CCE54FAFA7EAE12D093EAEDFFA /* Products */ = {
@@ -670,7 +677,7 @@
 				57446B38539DC369A0814DA8E8701E9F /* WireFormat.swift */,
 				27E238D564304997749B63D5691B49A5 /* wrappers.pb.swift */,
 				7FE936AA64837BD7429BA3EFA73D95F8 /* ZigZag.swift */,
-				B98B1AB3C2C7F129B4503F5068BBC458 /* Support Files */,
+				4E93A7A2463AC9EEF7655EF096C153AF /* Support Files */,
 			);
 			name = SwiftProtobuf;
 			path = SwiftProtobuf;
@@ -684,14 +691,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B8A7022FE04A39ADB5BF83E3296DF383 /* SwiftProtobuf-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5D73FFEACFEDAE3EF6385F3589F04C25 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7263C6C7AB2EED9E795F4ADFFCB9148C /* Pods-LGSocket_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -723,6 +722,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				17E17324FA9372A52A6FC657E34AC7E0 /* LGSocket-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F98AD0135C5C709F70D11A1BBD1E3A4C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67ABAB4BF3AA497A82CA265899FAD2D4 /* Pods-LGSocket_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -765,24 +772,6 @@
 			productReference = B238F88ABBAFDDF255823022EB48F8CB /* Pods_LGSocket_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		5342A114CE94B83C7A3C240DEF37F1D1 /* Pods-LGSocket_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DA9D3B4F36513BFE39DB77BF17BB75E5 /* Build configuration list for PBXNativeTarget "Pods-LGSocket_Tests" */;
-			buildPhases = (
-				57D2B9DB19FC8049043963C6C0075B34 /* Sources */,
-				7CC39582AB28BE4EC2F7AE7A115FEB3A /* Frameworks */,
-				5D73FFEACFEDAE3EF6385F3589F04C25 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D4F46A57BAABD7F1B998F7849EE770E8 /* PBXTargetDependency */,
-			);
-			name = "Pods-LGSocket_Tests";
-			productName = "Pods-LGSocket_Tests";
-			productReference = 88EA62DF51D2F0BB31BBCD634E52B519 /* Pods_LGSocket_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		5C57943F2D01ABA270045CEEEC55D2AC /* SwiftProtobuf */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 717E26F32FF12519661B14092A5C94FD /* Build configuration list for PBXNativeTarget "SwiftProtobuf" */;
@@ -798,6 +787,25 @@
 			name = SwiftProtobuf;
 			productName = SwiftProtobuf;
 			productReference = D5A310897F0BB7B53BEC79AF90806C74 /* SwiftProtobuf.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		62F50CB0950324B1C70BFDBEAC5316E3 /* Pods-LGSocket_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9EB14F7532A6CA8E7F908FEB8182EE07 /* Build configuration list for PBXNativeTarget "Pods-LGSocket_Tests" */;
+			buildPhases = (
+				751FA1A24FD8AD94ED2F7B37DDBB844F /* Sources */,
+				9A70B32E0A3F50EB84916A9EC83B4798 /* Frameworks */,
+				F98AD0135C5C709F70D11A1BBD1E3A4C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07711C1670D589EDC45A10CDB9F35090 /* PBXTargetDependency */,
+				6443E4B58A6E2B8A3718618CDCBBD233 /* PBXTargetDependency */,
+			);
+			name = "Pods-LGSocket_Tests";
+			productName = "Pods-LGSocket_Tests";
+			productReference = 88EA62DF51D2F0BB31BBCD634E52B519 /* Pods_LGSocket_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		E2FC3C59605815A3C9FB1777C19579FE /* LGSocket */ = {
@@ -824,8 +832,8 @@
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0700;
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -842,7 +850,7 @@
 				34CD2E3428AB802BACA62286FF5074B1 /* FBSnapshotTestCase */,
 				E2FC3C59605815A3C9FB1777C19579FE /* LGSocket */,
 				4703BB33E71EA366AA765D2E6519ABDF /* Pods-LGSocket_Example */,
-				5342A114CE94B83C7A3C240DEF37F1D1 /* Pods-LGSocket_Tests */,
+				62F50CB0950324B1C70BFDBEAC5316E3 /* Pods-LGSocket_Tests */,
 				5C57943F2D01ABA270045CEEEC55D2AC /* SwiftProtobuf */,
 			);
 		};
@@ -857,11 +865,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		57D2B9DB19FC8049043963C6C0075B34 /* Sources */ = {
+		751FA1A24FD8AD94ED2F7B37DDBB844F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B2E8684B62B3B3A3C602F5B461508B37 /* Pods-LGSocket_Tests-dummy.m in Sources */,
+				16FE0F04F53B33A741BA7CCEA6CE6D84 /* Pods-LGSocket_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -986,6 +994,18 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		07711C1670D589EDC45A10CDB9F35090 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FBSnapshotTestCase;
+			target = 34CD2E3428AB802BACA62286FF5074B1 /* FBSnapshotTestCase */;
+			targetProxy = D423572E722733A94076D6AA1EDF954A /* PBXContainerItemProxy */;
+		};
+		6443E4B58A6E2B8A3718618CDCBBD233 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-LGSocket_Example";
+			target = 4703BB33E71EA366AA765D2E6519ABDF /* Pods-LGSocket_Example */;
+			targetProxy = 7DA97C64D9CBCD8DF2F74DA53B090718 /* PBXContainerItemProxy */;
+		};
 		81EEACC972C2C99F0E85088BC5AED3CE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = LGSocket;
@@ -1004,50 +1024,14 @@
 			target = 5C57943F2D01ABA270045CEEEC55D2AC /* SwiftProtobuf */;
 			targetProxy = 93A29F65026B5C9495732A1D628A8F64 /* PBXContainerItemProxy */;
 		};
-		D4F46A57BAABD7F1B998F7849EE770E8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = FBSnapshotTestCase;
-			target = 34CD2E3428AB802BACA62286FF5074B1 /* FBSnapshotTestCase */;
-			targetProxy = A30C20FBB7C726D14FC28D6023C2EF5E /* PBXContainerItemProxy */;
-		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		079A5EF990EFF7E6D3D7B1BDCF6FF72C /* Debug */ = {
+		105C16F823F1381290BC19AEF4DDB235 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 49223D68FBE2CBB678A4C24A126090DF /* FBSnapshotTestCase.xcconfig */;
+			baseConfigurationReference = 08D2A40D165FC3D8BAE2DC1D72D35EEB /* Pods-LGSocket_Tests.debug.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
-				PRODUCT_NAME = FBSnapshotTestCase;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		0C5DD50DA67C9F3A8A10670E0261CDB0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 73AB1180846ACBA8F3C0CF43A8FDDD66 /* Pods-LGSocket_Tests.debug.xcconfig */;
-			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1067,7 +1051,7 @@
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_LGSocket_Tests;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -1078,9 +1062,9 @@
 			};
 			name = Debug;
 		};
-		1354FFA35B87F30A5A575B4ABA640571 /* Release */ = {
+		246CED37F175AF5E851C3839F63F9521 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 49223D68FBE2CBB678A4C24A126090DF /* FBSnapshotTestCase.xcconfig */;
+			baseConfigurationReference = B39B0DF8C7EE4F7B53AFCEA54A81A95C /* FBSnapshotTestCase.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1097,23 +1081,24 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
 				PRODUCT_NAME = FBSnapshotTestCase;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		27951ABDDA03AA33BA82F5C211E0A07B /* Release */ = {
+		4601CF02BE8A4464AA69C821CC5A0496 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 894D14C7364CFAAC506B2CA316452444 /* SwiftProtobuf.xcconfig */;
+			baseConfigurationReference = 4DF2A0B39252AE21249D93DE6CC64F9A /* Pods-LGSocket_Example.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1123,18 +1108,20 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftProtobuf/SwiftProtobuf-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwiftProtobuf/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-LGSocket_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SwiftProtobuf/SwiftProtobuf.modulemap";
-				PRODUCT_NAME = SwiftProtobuf;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LGSocket_Example/Pods-LGSocket_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1142,7 +1129,7 @@
 			};
 			name = Release;
 		};
-		33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */ = {
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1152,10 +1139,12 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -1163,6 +1152,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -1171,6 +1161,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -1195,14 +1186,80 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		731DC216E1A58545B559F6E0A2418060 /* Release */ = {
+		8F800F0E06217FD270D2BD42E3D27445 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91D170F881BA69FBCAF225BDBD843B43 /* LGSocket.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LGSocket/LGSocket-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LGSocket/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LGSocket/LGSocket.modulemap";
+				PRODUCT_MODULE_NAME = LGSocket;
+				PRODUCT_NAME = LGSocket;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B25377F5CA932DD9F291C48C54A1DE42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A84366365A22C37DE6B5EED33081C8A4 /* Pods-LGSocket_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LGSocket_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LGSocket_Tests/Pods-LGSocket_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1212,10 +1269,12 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -1223,6 +1282,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -1231,6 +1291,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -1251,180 +1312,14 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		7C35589711C34D65F625DF5135B44CF8 /* Release */ = {
+		B5D890F2B5F293A548AC700632D27D4E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B9C54141E63E3D96A75403A0466702B /* Pods-LGSocket_Example.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-LGSocket_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LGSocket_Example/Pods-LGSocket_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_LGSocket_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		C48206154157ECE9D9B840905F6EF9B9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6A79A1718F895C011BB297F14CB1292C /* Pods-LGSocket_Tests.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-LGSocket_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LGSocket_Tests/Pods-LGSocket_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_LGSocket_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		D3E07036D366341CC5E7900B75C1DF6D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4646D11126A4B822F519FA4BE940E5D2 /* Pods-LGSocket_Example.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-LGSocket_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LGSocket_Example/Pods-LGSocket_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_LGSocket_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		D7371BFE1ECD0F4CD5813072405F92E7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0A6AC34AD4D2080CE7140CD29ABCAEDF /* LGSocket.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LGSocket/LGSocket-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LGSocket/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LGSocket/LGSocket.modulemap";
-				PRODUCT_NAME = LGSocket;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		EF9D367C8F5C676A755AA4BB459B6511 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0A6AC34AD4D2080CE7140CD29ABCAEDF /* LGSocket.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LGSocket/LGSocket-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LGSocket/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LGSocket/LGSocket.modulemap";
-				PRODUCT_NAME = LGSocket;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		FC3422884653142C2B8FBB7A129A65A9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 894D14C7364CFAAC506B2CA316452444 /* SwiftProtobuf.xcconfig */;
+			baseConfigurationReference = 2480AE2E2CED774E3E3DB6D0A9F20521 /* SwiftProtobuf.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1441,6 +1336,40 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/SwiftProtobuf/SwiftProtobuf.modulemap";
+				PRODUCT_MODULE_NAME = SwiftProtobuf;
+				PRODUCT_NAME = SwiftProtobuf;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C9BC246C13ACC7B3631896E842EE1138 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2480AE2E2CED774E3E3DB6D0A9F20521 /* SwiftProtobuf.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftProtobuf/SwiftProtobuf-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftProtobuf/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftProtobuf/SwiftProtobuf.modulemap";
+				PRODUCT_MODULE_NAME = SwiftProtobuf;
 				PRODUCT_NAME = SwiftProtobuf;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -1453,14 +1382,115 @@
 			};
 			name = Debug;
 		};
+		EC2B16E08A82FFFAA496F1301724367A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B39B0DF8C7EE4F7B53AFCEA54A81A95C /* FBSnapshotTestCase.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EE910D36BAA8495F18D1455B08734394 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF2CBA3DA5A52CF9F8961F77B1E5C081 /* Pods-LGSocket_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LGSocket_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LGSocket_Example/Pods-LGSocket_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FEB062963DADE57DFFBD11FAC3B2E47F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91D170F881BA69FBCAF225BDBD843B43 /* LGSocket.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LGSocket/LGSocket-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LGSocket/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LGSocket/LGSocket.modulemap";
+				PRODUCT_MODULE_NAME = LGSocket;
+				PRODUCT_NAME = LGSocket;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */,
-				731DC216E1A58545B559F6E0A2418060 /* Release */,
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1468,8 +1498,8 @@
 		717E26F32FF12519661B14092A5C94FD /* Build configuration list for PBXNativeTarget "SwiftProtobuf" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FC3422884653142C2B8FBB7A129A65A9 /* Debug */,
-				27951ABDDA03AA33BA82F5C211E0A07B /* Release */,
+				C9BC246C13ACC7B3631896E842EE1138 /* Debug */,
+				B5D890F2B5F293A548AC700632D27D4E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1477,8 +1507,17 @@
 		9AF738066CEEB25E515748DC08919B57 /* Build configuration list for PBXNativeTarget "Pods-LGSocket_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D3E07036D366341CC5E7900B75C1DF6D /* Debug */,
-				7C35589711C34D65F625DF5135B44CF8 /* Release */,
+				EE910D36BAA8495F18D1455B08734394 /* Debug */,
+				4601CF02BE8A4464AA69C821CC5A0496 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9EB14F7532A6CA8E7F908FEB8182EE07 /* Build configuration list for PBXNativeTarget "Pods-LGSocket_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				105C16F823F1381290BC19AEF4DDB235 /* Debug */,
+				B25377F5CA932DD9F291C48C54A1DE42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1486,17 +1525,8 @@
 		D998B6DE36F6463E89C74B12FCB7DB00 /* Build configuration list for PBXNativeTarget "LGSocket" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EF9D367C8F5C676A755AA4BB459B6511 /* Debug */,
-				D7371BFE1ECD0F4CD5813072405F92E7 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DA9D3B4F36513BFE39DB77BF17BB75E5 /* Build configuration list for PBXNativeTarget "Pods-LGSocket_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0C5DD50DA67C9F3A8A10670E0261CDB0 /* Debug */,
-				C48206154157ECE9D9B840905F6EF9B9 /* Release */,
+				8F800F0E06217FD270D2BD42E3D27445 /* Debug */,
+				FEB062963DADE57DFFBD11FAC3B2E47F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1504,8 +1534,8 @@
 		F28097D43AF5CD8DA838ABD52A053790 /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				079A5EF990EFF7E6D3D7B1BDCF6FF72C /* Debug */,
-				1354FFA35B87F30A5A575B4ABA640571 /* Release */,
+				246CED37F175AF5E851C3839F63F9521 /* Debug */,
+				EC2B16E08A82FFFAA496F1301724367A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

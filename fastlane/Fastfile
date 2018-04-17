@@ -6,8 +6,8 @@
 desc "快速的升级维护pod私有库"
 lane :push do |options|
 
-targetName = options[:targetName]
-tagName = options[:tagName]
+targetName = options[:target]
+tagName = options[:tag]
 
 
 # 这里面, 只能写已有action

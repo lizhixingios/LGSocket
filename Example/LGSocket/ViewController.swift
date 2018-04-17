@@ -12,7 +12,7 @@ class ViewController: UIViewController, LGSocketDelegate {
 
     let server = LGServerManager()
     
-    lazy var socket = LGSocket(addr: LGSocket.getIPAddresses()!)
+    lazy var socket = LGSocket(addr: "192.168.6.30")
     
     
     override func viewDidLoad() {
@@ -32,9 +32,9 @@ class ViewController: UIViewController, LGSocketDelegate {
         msg.level = 100
         msg.iconURL = "sss"
         msg.userID = 100
-        msg.userName = "sdasd"
-        msg.message = "ssss"
-        let type = LGMessageType(rawValue: Int(arc4random()%4))!
+        msg.userName = "大神~"
+        msg.message = "你好~"
+        let type = LGMessageType.chatMessage
         print(type)
         print(socket.sendMessage(type: type, msg: msg))
     }
