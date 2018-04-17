@@ -1,6 +1,6 @@
 {
   "name": "LGSocket",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "summary": "兴哥的Socket.",
   "description": "\"基于ysocket、SwiftProtobuf的封装，实现的即时通讯工具类。\"",
   "homepage": "https://github.com/lizhixingios/LGSocket",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/lizhixingios/LGSocket.git",
-    "tag": "0.1.0"
+    "tag": "1.0.0"
   },
   "platforms": {
     "ios": "8.0"

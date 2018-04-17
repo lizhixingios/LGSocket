@@ -4,7 +4,7 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - LGSocket (0.1.0):
+  - LGSocket (1.0.0):
     - SwiftProtobuf (~> 1.0.2)
   - SwiftProtobuf (1.0.2)
 
@@ -23,7 +23,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  LGSocket: 9bcb8a13427b9625f78f982b09526d209e224f6f
+  LGSocket: 1d0d3e688d2214a798ffc9fed7c5b3a6c62fb1e4
   SwiftProtobuf: e41d205c91eac0fb46823f2561712407fefdaf4e
 
 PODFILE CHECKSUM: 7b71902ff6b0abac870564e7d2da903722ebddca

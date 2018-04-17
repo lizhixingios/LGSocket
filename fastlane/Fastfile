@@ -48,5 +48,5 @@ tag: tagName
 push_git_tags
 
 # 5. 提交podspecs
-pod_push(allow_warnings:true)
+pod_push(repo: "YhcsSpecs", allow_warnings:true)
 end
